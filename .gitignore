@@ -1,0 +1,25 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente (nunca enviar para o GitHub)
+.env
+.env.*
+!.env.example
+
+# Banco de dados local (SQLite)
+*.db
+*.db-journal
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
